@@ -1,0 +1,41 @@
+.events-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.events-item-bg-container {
+  background-color: #3a4b63;
+  height: 100vh;
+  width: 60vw;
+}
+
+.events-heading {
+  font-size: 30px;
+  font-weight: bold;
+  color: #ffffff;
+  padding: 20px;
+  font-family: 'Roboto';
+}
+
+.ul-container {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.registration-details-container {
+  background-color: #ffffff;
+  width: 40vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.registration-details-description {
+  font-size: 24px;
+  color: #475569;
+  text-align: center;
+  padding-top: 50px;
+}
